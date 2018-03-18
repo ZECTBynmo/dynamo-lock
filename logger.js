@@ -3,10 +3,10 @@
  */
 
 var logger = {
-    debug: function () {},//console.log,
-    info : console.log,
-    warn : console.log,
-    error: console.log
+    debug: function () {},
+    info : function () {},
+    warn : function () {},
+    error: function () {}
 };
 
 module.exports = logger;
